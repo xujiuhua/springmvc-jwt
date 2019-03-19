@@ -4,10 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * ${DESCRIPTION}
+ * <p></p>
  *
  * @author xujiuhua
- * @create 2017-03-20-15:38
+ * @since JDK 1.8
  */
 public class ResponseData {
     public static final String ERRORS_KEY = "errors";

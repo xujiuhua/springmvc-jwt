@@ -16,7 +16,7 @@
 
 http://localhost:8081/users/login?username=imjack&password=123456
 
-```js
+```json
 {
   "message": "Ok",
   "code": 200,

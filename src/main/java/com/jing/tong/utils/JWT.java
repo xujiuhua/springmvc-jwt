@@ -8,10 +8,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * ${DESCRIPTION}
+ * <p></p>
  *
  * @author xujiuhua
- * @create 2017-03-20-15:27
+ * @since JDK 1.8
  */
 public class JWT {
     private static final String SECRET = "XX#$%()(#*!()!KL<><MQLMNQNQJQK sdfkjsdrow32234545fdf>?N<:{LWPW";

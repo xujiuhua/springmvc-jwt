@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * ${DESCRIPTION}
+ * <p></p>
  *
  * @author xujiuhua
  * @create 2017-03-20-15:34
@@ -22,14 +22,14 @@ public class UserController {
     @PostMapping("/login")
     @ResponseBody
     public ResponseData login(@RequestParam String username, @RequestParam String password) {
-        if ("imjack".equals(username) && "123456".equals(password)) {
+        if ("hello".equals(username) && "123456".equals(password)) {
             ResponseData responseData = ResponseData.ok();
             User user = new User();
             user.setId(1);
             user.setUsername(username);
             user.setPassword(password);
             responseData.putDataValue("user", user);
-            String token = JWT.sign(user, 10L * 1000L);
+            String token = JWT.sign(user, 30L * 1000L);
             if (token != null) {
                 responseData.putDataValue("token", token);
             }

@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * ${DESCRIPTION}
  *
  * @author xujiuhua
- * @create 2017-03-20-15:53
+ * @since JDK 1.8
  */
 @Controller
 @RequestMapping("/me")
