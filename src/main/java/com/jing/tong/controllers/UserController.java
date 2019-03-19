@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @create 2017-03-20-15:34
  */
 @Controller
-@RequestMapping("users")
+@RequestMapping("user")
 public class UserController {
     @PostMapping("/login")
     @ResponseBody

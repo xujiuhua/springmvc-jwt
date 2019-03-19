@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/me")
 public class MeController {
 
-    @GetMapping("/get_info")
+    @GetMapping("/get")
     @ResponseBody
     public ResponseData getInfo(@RequestParam String token) {
         User user = JWT.unsign(token, User.class);
