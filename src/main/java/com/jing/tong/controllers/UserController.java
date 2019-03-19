@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("user")
 public class UserController {
+
     @PostMapping("/login")
     @ResponseBody
     public ResponseData login(@RequestParam String username, @RequestParam String password) {
